@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boxs {
+    font-family: 'Gilroy';
+}
+
+button h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+button h2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-right: 20px;
+}
+
+button {
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 321px;
+    height: 57px;
+    border: 1px solid #CFE7FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+button:hover {
+    transition: 0.7s;
+    border: 1px solid blue;
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.header p {
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.flex {
+    gap: 76px;
+    justify-content: center;
+    font-style: normal;
+    display: flex;
+    font-family: 'Gilroy';
+}
+
+.post h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0071E3;
+    margin-bottom: 48px;
+}
+
+.post h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.post h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.btn {
+    margin-bottom: 49px;
+    display: flex;
+    gap: 11px;
+    margin-top: 69px;
+    justify-content: center;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 155px;
+    height: 42px;
+    background: #CFE7FF;
+    border-radius: 10px;
+    color: #797979;
+    border: 0;
+    transition: .8s ease;
+}
+
+
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 155px;
+    height: 42px;
+    background: #CFE7FF;
+    border-radius: 10px;
+    color: #797979;
+    border: 0;
+    transition: .2s ease;
+}
+
+.active {
+    cursor: pointer;
+    width: 155px;
+    background: #0071E3;
+    height: 42px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+}
+
+
+img {
+    width: 312px;
+    height: 290px;
+    object-fit: cover;
+}
